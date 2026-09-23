@@ -1,11 +1,5 @@
 # Getting Started with Create React App
 
-## Deploy to GitHub Pages
-
-Push the `main` branch to GitHub. The workflow in `.github/workflows/deploy.yml` builds the app and publishes it to GitHub Pages automatically.
-
-In the repository on GitHub, open **Settings > Pages** and set **Source** to **GitHub Actions**. The deployed URL will appear in the workflow run and in the repository's Pages settings.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
