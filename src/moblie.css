@@ -1,0 +1,58 @@
+@media (max-width:600px){
+    .first-txt{
+        font-size: 40px;
+        padding: 0 10px;
+    }
+    .first-para{
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .sixth-box2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sixth-con1{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sixth-con2{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sixth-con3{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sixth-con4{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .eleth-btn1{
+        width: 50%;
+    }
+    .twelth-fl1{
+        margin-right: 5px;
+      }
+      .twelth-fl2{
+        margin-right: 5px;
+      }
+      .twelth-fl3{
+        margin-right: 5px;
+      }
+      .twelth-fl4{
+        margin-right: 5px;
+      }
+      .twelth-fl5{
+        margin-right: 5px;
+      }
+      .thirteen-font1{
+        right: 40px;
+      }
+      .container{
+       display: none;
+      }
+      .color-switcher{
+   display: none;
+      }
+}
