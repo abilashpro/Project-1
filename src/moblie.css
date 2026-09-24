@@ -50,9 +50,72 @@
         right: 40px;
       }
       .container{
-       display: none;
+        display: block;
+        top: 124px;
+        left: 12px;
+       width: 40px;
+       height: 40px;
+       background: transparent;
       }
       .color-switcher{
-   display: none;
+       display: block;
+       top: 72px;
+       left: 12px;
+       width: 40px;
+       height: 40px;
+       padding: 0;
+       box-sizing: border-box;
+       border-radius: 4px;
+      }
+      .color-switcher.active{
+        left: 12px;
+        width: min(200px, calc(100vw - 24px));
+        height: auto;
+        min-height: 154px;
+        padding: 8px;
+        background: white;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, .2);
+      }
+      .color-switcher h3,
+      .color-switcher .theme-buttons-container{
+        display: none;
+      }
+      .color-switcher.active h3{
+        display: block;
+        padding: 0 40px 0 0;
+        margin-bottom: 4px;
+        font-size: 14px;
+        text-align: left;
+      }
+      .color-switcher.active .theme-buttons-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 36px;
+        gap: 4px;
+        min-height: 108px;
+        justify-items: center;
+      }
+      .color-switcher .switcher-btn{
+        position: static;
+        width: 40px;
+        height: 40px;
+        padding: 8px 10px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .color-switcher.active .switcher-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .color-switcher .theme-buttons-container .theme-buttons{
+        width: 30px;
+        height: 30px;
+        margin: 3px;
+        box-sizing: border-box;
+      }
+      .color-switcher.active ~ .container{
+        top: 240px;
+        left: 12px;
       }
 }

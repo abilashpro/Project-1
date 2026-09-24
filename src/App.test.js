@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders the Dorsin app', () => {
+test('renders the Darsin app', () => {
   render(<App />);
-  expect(screen.getAllByText('DORSIN').length).toBeGreaterThan(0);
+  expect(screen.getAllByText('DARSIN').length).toBeGreaterThan(0);
 });

@@ -19,6 +19,10 @@
 .color-switcher.active{
   left: 0;
 }
+.color-switcher.active ~ .container{
+  top: calc(38% + 220px);
+  left: 0;
+}
 .color-switcher h3{
   color: black;
   font-size: 20px;
@@ -55,27 +59,33 @@ i{
 /*dark-theme*/
 .container{
   position: fixed;
-  top: 45%;
-  left: -200px;
-  width: 200px;
-  padding: px;
-  background: white;
-  z-index: 10;
-  cursor: pointer;
+  top: calc(38% + 60px);
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  z-index: 100;
 }
 .container1 {
-  position: absolute;
-  top: 0;
-  right: -40px;
+  position: static;
   background: rgb(9, 9, 9);
-  padding: 10px 10px;
-  cursor: pointer;
-  font-size: 20px;
-  color: rgb(254, 252, 252);
-  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
 }
 .sun1{
-  padding: 0 0 0 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  font-size: 19px;
   cursor: pointer;
 }
 
